@@ -26,6 +26,9 @@
 ./css/gridlayout/recursos/*
 ./css/gridlayout/recursos/*.*
 
+./practica/html-css/images/
+./practica/html-css/images/*
+./practica/html-css/images/*.*
 ## Excluse these files extensions
 *.jpg
 *.png
