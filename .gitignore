@@ -1,0 +1,43 @@
+## Exclude those folders
+
+./images/*
+./images/*.*
+
+./html-css/images/*
+./html-css/images/*.*
+
+./desarrolloweb-responsive-design/images/
+./desarrolloweb-responsive-design/images/*
+./desarrolloweb-responsive-design/images/*.*
+
+./desarrolloweb-responsive-design/fonts/
+./desarrolloweb-responsive-design/fonts/*
+./desarrolloweb-responsive-design/fonts/*.*
+
+./desarrolloweb-responsive-design/videos/
+./desarrolloweb-responsive-design/videos/*
+./desarrolloweb-responsive-design/videos/*.*
+
+./css/gridlayout/images/
+./css/gridlayout/images/*
+./css/gridlayout/images/*.*
+
+./css/gridlayout/recursos/
+./css/gridlayout/recursos/*
+./css/gridlayout/recursos/*.*
+
+## Excluse these files extensions
+*.jpg
+*.png
+*.pdf
+*.gif
+*.docx
+*.mp4
+*.pptx
+
+
+## Exclude this exact file
+
+Ruta-aprendizaje.jpg
+
+
