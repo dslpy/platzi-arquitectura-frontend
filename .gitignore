@@ -34,7 +34,10 @@
 *.docx
 *.mp4
 *.pptx
-
+*.svg
+*.eot
+*.ttf
+*.woff
 
 ## Exclude this exact file
 

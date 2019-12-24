@@ -1,0 +1,59 @@
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.pelota {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:white;
+
+    
+    transition-duration: 1s;
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;   
+}
+.pelota.a {
+    background-color: blueviolet;
+    left: 0;
+    
+}
+
+.pelota.b {
+    background-color: pink;
+    right:0;
+}
+
+
+
+.canasta {
+    border: 1px solid blue;
+    
+    height: 200px;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    position:relative;
+}
+
+
+.canasta:hover .pelota.a{
+    width: 200px;
+    height: 200px;
+    left: calc(50% - 200px);
+    
+}
+
+.canasta:hover .pelota.b{
+    width: 200px;
+    height: 200px;
+    right: calc(50% - 200px);
+    
+}
+
+
+
